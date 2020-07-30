@@ -1,0 +1,40 @@
+.image {
+    width: 450px;
+    margin-right: 30px;
+}
+
+.cards {
+    display: flex;
+    margin-bottom: 100px;
+    align-items: center;
+    background-color: white;
+    box-shadow:  0px 40px 30px -20px gainsboro;
+    border-radius: 5px;
+}
+
+
+.cardsContent {
+    padding-right: 20px;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+h3 {
+    padding-bottom: 20px;
+    text-align: left !important;
+}
+
+.btn {
+    background-color: red !important;
+    border-radius: 0px !important;
+    border: none !important;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container {
+    margin-bottom: 150px;
+}

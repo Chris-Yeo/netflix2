@@ -1,0 +1,37 @@
+.jobContainer {
+    border-bottom: 1px solid lightgray;
+    margin-left: 30px;
+}
+
+.jobType {
+    margin-bottom: 30px;
+}
+
+.jobTitle {
+    margin-top: 30px;
+    color: red;
+}
+
+.jobDetails {
+    display: flex;
+}
+
+.location {
+    padding-right: 50px;
+}
+
+h5 {
+    font-weight: 300;
+}
+
+p {
+    font-size: 14px;
+}
+
+.fa-users {
+    padding-right: 15px;
+}
+
+.fa-location-arrow {
+    padding-right: 15px;
+}

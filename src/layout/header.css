@@ -1,0 +1,27 @@
+.navBar {
+    display: flex;
+    flex-direction: row;
+    min-height: 15vh;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 30px;
+}
+
+.searchJobs a {
+    display: flex;
+    flex-direction: row;
+}
+
+.searchJobs h5 {
+    padding-right: 15px;
+}
+
+.fa-search {
+   margin-top: -5px;
+}
+
+.searchJobs {
+    margin-top: 10px;
+}
+

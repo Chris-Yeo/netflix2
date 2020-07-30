@@ -1,0 +1,42 @@
+.icons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logoAndTerms {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.terms {
+    display: flex;
+    
+}
+
+.follow {
+    margin-right: 50px;
+    color: gray;
+}
+
+.icon {
+    padding-right: 5px;
+    color: gray;
+}
+
+.term {
+    padding-right: 20px;
+    color: gray;
+}
+
+.impactbyte {
+    padding-right: 40px;
+    color: gray;
+}
+
+.footer {
+    margin-bottom: 20px;
+    font-size: 12px;
+    margin-top: 150px;
+}
+

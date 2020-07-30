@@ -1,0 +1,93 @@
+ 
+.test {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 150px;
+    width: 100%;
+    height: 80vh;
+    box-shadow: 0 40px 40px 5px gainsboro;
+}
+
+.video {
+    width: 100%;
+    height: 50%;
+    
+  }
+
+  .videoplayer {
+    width: auto;
+    min-width: 100%;
+    height: auto;
+  }
+
+  .content {
+    position: absolute;
+    top: 0;
+    color:#f1f1f1;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0;
+  }
+  .subcontent {
+      text-align: left;
+      padding: 50px;
+      align-items: center;
+     
+    }
+ 
+  .subcontent button {
+      font-weight: bold;
+      margin-top: 30px;
+      color: #f1f1f1;
+      border: #f1f1f1 1px solid;
+      padding: 10px 5px;
+      background-color: hsla(0, 0%, 0%, 0);
+      font-size: 1.25rem;
+      border-radius: 5px;
+  }
+  
+  .subcontent button:hover {
+      background-color: #f1f1f1;
+      color: #000000c0;
+  }
+
+  .main {
+    width: 50%;
+    margin: 50px auto;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.form-control {
+    height: 50px !important;
+    width: 100px !important;
+}
+
+.btn button {
+  margin: 0 auto;
+}
+
+.subcontent .input-group {
+  width: 500px !important;
+}
+
+.subcontent h1 {
+  padding-bottom: 30px;
+}
