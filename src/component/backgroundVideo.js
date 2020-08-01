@@ -3,7 +3,6 @@ import './backgroundVideo.css';
 // import Food from './food.mp4';
 
 const BackgroundVideo = () => {
-    const videoSource = Food
     return (
         <div className="test">
             <div className="videoplayer">

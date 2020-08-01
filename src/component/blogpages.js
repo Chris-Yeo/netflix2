@@ -1,6 +1,8 @@
 import React from 'react'
 
-const blogPages = ({pages}) => {
+// blogpages tidak digunakan
+
+const BlogPages = ({pages}) => {
     return (
         <div className="blogPages">
             {
@@ -27,3 +29,4 @@ const blogPages = ({pages}) => {
         </div>
     )
 }
+export default BlogPages
