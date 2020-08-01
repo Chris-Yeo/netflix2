@@ -16,7 +16,7 @@ const Nav =({home, listjobs, detailblog}) => {
     color:'gray'
   };
   return (
-    <Router>
+ 
       <nav className="navBar">
         <div className="logo">
           <Logo logo={imageLogo}/>
@@ -28,12 +28,7 @@ const Nav =({home, listjobs, detailblog}) => {
           </Link>
         </div>
       </nav>
-      <Switch>
-      <Route exact path="/listjobs" component={listjobs} />
-      <Route path="/" component={home} />
-      <Route path="/detailblog" component={detailblog} />
-      </Switch>
-    </Router>
+    
   )
 }
 

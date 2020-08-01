@@ -1,10 +1,10 @@
 import React from 'react';
-// import {
-//   BrowserRouter as Router,
-//   Switch,
-//   Route,
-//   Link
-// } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 import './App.css';
 import Nav from './layout/header';
@@ -17,10 +17,23 @@ import DetailBlog from './pages/detailblog';
 
 function App() {
   return (
-    <>
-      <Nav home={Home} listjobs={ListJobs} detailblog={DetailBlog} />
-      <Footer />
-    </>
+    <Router>
+     <Nav/>
+      <Switch>
+        <Route exact path="/">
+          <Home />  
+        </Route>
+        <Route path="/listjobs">
+          <ListJobs />  
+        </Route>
+        <Route path="/detailblog/:id">
+          <DetailBlog />  
+        </Route>
+      </Switch>
+
+
+     <Footer/>
+    </Router>
   );
 }
 

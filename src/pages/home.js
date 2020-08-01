@@ -9,6 +9,8 @@ import Video from '../component/videos';
 import './home.css'
 import Blog from '../component/blog'
 
+import detailblog from './detailblog'
+
 const Home =() => {
   let card = [
     {
